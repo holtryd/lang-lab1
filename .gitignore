@@ -1,0 +1,9 @@
+*.hs
+*.o
+*.hi
+*.x
+Makefile
+*.bak
+DocGrammar.*
+ParGrammar.*
+TestGrammar
