@@ -1,5 +1,5 @@
 #!/bin/bash
 
-bnfc -m -haskell grammar.cf
+bnfc -haskell grammar.cf
 make
 ../../bin/TestCPP source.cc
