@@ -2,6 +2,10 @@
 *.o
 *.hi
 *.x
+*.c
+*.h
+*.l
+*.y
 Makefile
 *.bak
 DocGrammar.*
