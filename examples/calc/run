@@ -1,0 +1,5 @@
+#!/bin/bash
+
+bnfc -haskell grammar.cf
+make
+../../bin/TestCPP source.cc

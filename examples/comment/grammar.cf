@@ -1,0 +1,3 @@
+EAdd.	Exp	::=	Exp	"+"	Exp1	;
+coercions	Exp	2	;
+comment "//" ;

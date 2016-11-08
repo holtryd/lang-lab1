@@ -1,17 +1,23 @@
 # Lab 1
 
+## Dependencies
+
+brew info cabal-install
+cabal update
+cabal install alex
+cabal install happy
+cabal install bnfc
+echo "export PATH="$PATH:$HOME/.cabal/bin" >> ~/.bashrc
+
 ## File structure
 
-bnfc contains some sort of hack not ment to be used as a self-contained program.
-It can't read symlinks so grammar files needs to be placed in the same folder
-as all kinds of random generated files.
+The examples folder contains different projects with the following files:
 
-Important files in ./bnfc:
-
-* CPP.cf - grammar file
-* test.sh - runs test suite
+1. grammar.cf - all your grammar rules
+2. source.cc - the source being parsed by your grammar rules
+3. run - bash script to test your grammar against the source file
 
 ## Run
 
-cd bnfc
-./test.sh
+cd examples/<some example>
+./run
